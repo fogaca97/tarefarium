@@ -1,0 +1,48 @@
+.dashboard__item__cabecalho{
+    background-color: #B3B3B3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4%;
+    vertical-align: middle;
+}
+
+.dashboard__item__titulo{
+    font-size: 1.6rem;
+    margin: 1%;
+    width: 70%;
+}
+
+.dashboard__item__botaoconclui{
+    background-color: #666666;
+    cursor: pointer;
+    height: 20px;
+    margin: 1%;
+    padding: .5%;
+    width: 20px;
+}
+
+.dashboard__item__botaoexclui{
+    background-color: #666666;
+    cursor: pointer;
+    height: 20px;
+    margin: 1%;
+    padding: .5%;
+    width: 20px;
+}
+
+.dashboard__item__dropdown{
+    background-color: #E6E6E6;
+    padding: 1.5%;
+}
+
+.dashboard__item__dropdown-responsavel{
+    font-size: 1.1rem;
+    padding: 2% 8%;
+}
+
+.dashboard__item__dropdown-desc{
+    font-size: 1rem;
+    padding: 3% 10%;
+    width: auto;
+}

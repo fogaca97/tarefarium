@@ -1,0 +1,22 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin: 2% 2%;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    scroll-padding: 50px 0;
+    width: 500px;
+}
+
+.dashboard__titulo{
+    font-size: 2rem;
+}
+
+.dashboard__item{
+    border: solid 3px #000000;
+    cursor: move;
+    height: auto;
+    margin: 2% 5%;
+    width: auto;
+}
+

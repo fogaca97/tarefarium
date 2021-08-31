@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y:hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.index-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #B9B8DD;
+    height: calc(100vh - 83.48px);
+  
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-dashboard{
+  display: flex;
+  flex-direction: row;
 }

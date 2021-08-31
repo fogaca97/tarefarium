@@ -1,0 +1,48 @@
+
+.formCadastro{
+    background-color: #B3B3B3;
+    border: solid 2px #000000;
+    border-radius: 20px;
+    height: max-content;
+    margin: 10% 2% 2% 2%;
+    padding: 10% 20%;
+    width: 100%;
+}
+
+.formCadastro__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.formCadastro__titulo{
+    font-size: 1.5rem;
+    padding: 0 0 2% 0;
+}
+
+.formCadastro__inputcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formCadastro__label{
+    font-size: 1rem;
+    padding: 8% 0 2% 2%;
+}
+
+.formCadastro__input{
+    background-color: #E6E6E6;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.formCadastro__botao{
+    cursor: pointer;
+    margin: 10% auto 5% auto;;
+    padding: 2%;
+    width: 50%;
+}
+
+.formCadastro__link:hover{
+    color: #232368;
+}
